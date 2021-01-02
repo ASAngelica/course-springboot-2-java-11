@@ -22,7 +22,7 @@ import com.lgdois.course.repositories.ProductRepository;
 import com.lgdois.course.repositories.UserRepository;
 
 @Configuration
-@Profile("prod")
+@Profile("test")
 public class TestConfig  implements CommandLineRunner {
 	
 	@Autowired   // injeção de dependencia automatica do SpringBoot
